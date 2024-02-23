@@ -20,7 +20,9 @@ const Impact = () => {
   const progressContent = useRef(null);
   const onAutoplayTimeLeft = (s: any, time: any, progress: any) => {
     if (progressCircle.current && progressContent.current) {
+      // @ts-expect-error
       progressCircle.current.style.setProperty('--progress', 1 - progress);
+      // @ts-expect-error
       progressContent.current.textContent = `${Math.ceil(time / 1000)}s`;
     }
   };
