@@ -83,3 +83,39 @@ export const impacts = [
   { id: 9, image: nine },
   { id: 10, image: ten },
 ];
+
+import teamOne from '@/app/assests/team/one.jpg';
+import teamTwo from '@/app/assests/team/two.jpg';
+import teamThree from '@/app/assests/team/three.jpg';
+import teamFour from '@/app/assests/team/four.jpg';
+
+export const ambassadors = [
+  {
+    id: 1,
+    image: teamOne,
+    name: 'Mr. Jacob Onyobi',
+    role: 'The Managing Director (DFET)',
+    path: 'https://www.linkedin.com/in/king-jacob-onyobi-25bb73b9',
+  },
+  {
+    id: 2,
+    image: teamTwo,
+    name: 'Mrs. Grace Onyobi',
+    role: 'Assistant Managing Director (DFET)',
+    path: 'https://www.linkedin.com/in/mrs-grace-jacob-423980221/',
+  },
+  {
+    id: 3,
+    image: teamThree,
+    name: 'Mr. Monday Aizebojei',
+    role: 'Chief Information Officer (DFET)',
+    path: 'https://www.linkedin.com/in/monday-aizeboje-9b129172',
+  },
+  {
+    id: 4,
+    image: teamFour,
+    name: 'Daniel Idam Ndukwe',
+    role: 'Chief Media Officer (DFET)',
+    path: 'https://www.linkedin.com/in/daniel-idam-ndukwe-081529171',
+  },
+];

@@ -18,7 +18,7 @@ const Navbar = () => {
     <nav className="w-full">
       <Container>
         <div className="flex items-center justify-between flex-wrap">
-          <Link href="/">
+          <Link href="/" className="block">
             <Image
               className="w-full h-[2.8rem] md:h-[3.5rem]"
               src={logo}
@@ -40,13 +40,6 @@ const Navbar = () => {
                 </li>
               );
             })}
-
-            <div className="ml-2">
-              <button className="btn btn-sm btn-primary btn-outline">
-                Send a donation
-                <BiHeart />
-              </button>
-            </div>
           </ul>
 
           <button

@@ -9,16 +9,9 @@ const Header = () => {
     <header className="bg-slate-100 ">
       <Container>
         <div className="h-screen grid grid-cols-1 md:grid-cols-[1.5fr_2fr]">
-          <figure className="mask md:mask-parallelogram-2 bg-primary h-full w-full overflow-hidden relative rounded-md">
-            <Image
-              alt=""
-              src={heroImage}
-              className="w-full h-full object-cover scale-125 hover:scale-150 transition-all"
-            />
-          </figure>
-          <div className="grid  items-center px-5 py-8 md:py-0">
+          <div className="grid items-center py-8 md:py-0">
             <article className="flex flex-col gap-5 text-gray-800">
-              <h1 className="text-4xl md:text-5xl text-primary font-bold max-w-[18ch]">
+              <h1 className="text-4xl md:text-5xl text-black font-bold max-w-[18ch]">
                 By Fighting Inequality, We’re Beating Poverty.
               </h1>
               <p className="text-gray-500 max-w-[50ch]">
@@ -37,6 +30,14 @@ const Header = () => {
               </div>
             </article>
           </div>
+
+          <figure className="mask md:mask-parallelogram-2 bg-slate-100 h-full w-full overflow-hidden relative rounded-md">
+            <Image
+              alt=""
+              src={heroImage}
+              className="w-full h-full object-cover scale-150 transition-all"
+            />
+          </figure>
         </div>
       </Container>
     </header>
