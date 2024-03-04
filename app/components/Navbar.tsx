@@ -17,14 +17,16 @@ const Navbar = () => {
   return (
     <nav className="w-full">
       <Container>
-        <div className="flex items-center justify-between flex-wrap">
-          <Link href="/" className="block">
-            <Image
-              className="w-full h-[2.8rem] md:h-[3.5rem]"
-              src={logo}
-              alt=""
-            />
-          </Link>
+        <div className="flex items-center justify-between">
+          <div>
+            <Link href="/" className="block">
+              <Image
+                className="w-full h-[2.8rem] md:h-[3.5rem]"
+                src={logo}
+                alt=""
+              />
+            </Link>
+          </div>
 
           <ul className="hidden md:flex items-center gap-8">
             {navItems.map((item) => {

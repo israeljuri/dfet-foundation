@@ -34,7 +34,7 @@ const Impact = () => {
           <h3 className="text-3xl md:text-4xl font-bold max-w-[25ch] text-black">
             Take a look some of our impact
           </h3>
-          <p className="text-gray-500 max-w-[50ch]">
+          <p className="text-gray-500 max-w-[70ch]">
             With this innovation we can wholeheartedly fulfill our dream of
             impacting the lives of many, without glitches.
           </p>

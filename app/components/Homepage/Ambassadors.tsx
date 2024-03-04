@@ -10,9 +10,9 @@ const Ambassadors = () => {
     <section className="py-10">
       <Container>
         <div className="flex flex-col gap-10">
-          <article className="flex items-center justify-center">
+          <article className="flex flex-col items-center justify-center">
             <h3 className="text-3xl md:text-4xl font-bold max-w-[25ch] text-black">
-              Ambassadors
+              Meet our Ambassadors
             </h3>
           </article>
 
@@ -21,9 +21,9 @@ const Ambassadors = () => {
               <Link key={ambassador.id} target="_blank" href={ambassador.path}>
                 <article className="flex flex-col gap-4 items-center">
                   <div className="relative">
-                    <figure className="block h-[10rem] w-[10rem] border-4overflow-hidden bg-slate-50 ">
+                    <figure className="block h-[10rem] w-[10rem] border-4 overflow-hidden rounded-full">
                       <Image
-                        className="w-full h-full object-full mask mask-hexagon"
+                        className="w-full h-full object-full"
                         src={ambassador.image}
                         alt=""
                       />
